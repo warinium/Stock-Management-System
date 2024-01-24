@@ -1,0 +1,80 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import "@fortawesome/fontawesome-free/scss/solid";
+
+@import "sweetalert2/dist/sweetalert2.min.css";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+@import "admin-lte/dist/css/adminlte.min.css";
+
+.invalid-feedback {
+    display: block;
+}
+
+.user-cart {
+    .card {
+        height: 500px;
+    }
+
+    .qty {
+        width: 45px;
+        float: left;
+    }
+}
+
+.order-product {
+    .item {
+        float: left;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background: #fff;
+        margin: 0 2px 4px 2px;
+        width: 120px;
+        height: 170px;
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 60%;
+        }
+        h5 {
+            margin: 4px 1px 1px 1px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}
+
+.pos_total {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pos_total_label {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
