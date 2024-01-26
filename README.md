@@ -18,16 +18,18 @@ For system requirements you [Check Laravel Requirement](https://laravel.com/docs
 
 4. Rename or copy `.env.example` file to `.env`
 
-5. `php artisan key:generate` to generate app key.
 
-6. Set your database credentials in your `.env` file.
 
-7. Set your `APP_URL` in your `.env` file (exemple: `APP_URL=http://127.0.0.1:8000`)
+5. Set your database credentials in your `.env` file.
 
-8. Laravel utilizes [Composer](https://getcomposer.org/) to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.
+6. Set your `APP_URL` in your `.env` file (exemple: `APP_URL=http://127.0.0.1:8000`)
 
+7. Laravel utilizes [Composer](https://getcomposer.org/) to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.
+   
     `composer install`
-
+   
+8. `php artisan key:generate` to generate app key.
+   
 9. Migrate database table: `php artisan migrate`
 
 10. `php artisan db:seed`, this will initialize settings and create and admin user for you [email: admin@admin.com - password: admin@admin.com].
